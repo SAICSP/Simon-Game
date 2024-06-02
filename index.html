@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simon Says Game</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="border">
+        <h1>Simon Game</h1>
+        <div class="buttons">
+            <button id="startButton">Start</button>
+            <button id="restartButton">Restart</button>
+        </div>
+        <h2>Click  Start to begin</h2>
+        <h3>High Score : <span id="highScore">0</span></h3>
+        <div class="absolutediv">Remember color sequence.</div>
+        <div class="allbox">
+            <div class="box-container">
+                <div class="line1">
+                    <div class="btn red" type="button" id="red">1</div>
+                    <div class="btn aqua" type="button" id="aqua">2</div>
+                </div>
+                <div class="line2">
+                    <div class="btn yellow" type="button" id="yellow">3</div>
+                    <div class="btn green" type="button" id="green">4</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

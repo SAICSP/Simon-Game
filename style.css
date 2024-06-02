@@ -1,0 +1,119 @@
+body {
+    background-color: black;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3 {
+    color: #fff;
+}
+
+.border:hover {
+    border: 15px solid white;
+    box-shadow: 10px 10px 200px white;
+    transition: ease-in-out 0.2s;
+}
+
+.buttons {
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    border: 8px solid black;
+    border-radius: 10%;
+    height: 75px;
+    width: 75px;
+    padding: 2.7rem;
+    margin: 1.5rem;
+    cursor: pointer;
+}
+
+.btn:hover {
+    border: 6px solid white;
+    box-shadow: 10px 10px 10px white;
+    transition: ease-in-out 0.3s;
+}
+
+.red {
+    background-color: red;
+}
+
+.aqua {
+    background-color: aqua;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.green {
+    background-color: green;
+}
+
+.flash {
+    background-color: #fff;
+}
+
+.userflash {
+    background-color: #0f0;
+}
+
+@media only screen and (max-width: 768px) {
+    .btn {
+        height: 50px;
+        width: 50px;
+        padding: 1.5rem;
+        margin: 1rem;
+    }
+}
+
+.absolutediv {
+    position: absolute;
+    margin-left: 2rem;
+    color: white;
+}
+#startButton{
+    background-color:lightgreen;
+    /* border: 3px solid yellow; */
+}
+#startButton:hover{
+    border: 6px solid white;
+    box-shadow: 10px 10px 10px white;
+    transition: ease-in-out 0.3s;
+    background-color: #0f0;
+}
+#restartButton{
+    background-color: #F44336;
+    /* border: 3px solid yellow; */
+}
+#restartButton:hover{
+        border: 6px solid white;
+        box-shadow: 10px 10px 10px white;
+        transition: ease-in-out 0.3s;
+        background-color: red;
+}

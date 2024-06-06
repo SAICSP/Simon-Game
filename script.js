@@ -59,7 +59,7 @@ function checkAns(Idx) {
             localStorage.setItem('highScore', highScore);
         }
 
-        h2.innerHTML = `Game Over ! Your Score was <b> ${level}</b> <br> Press any key or click Start to play again`;
+        h2.innerHTML = `Game Over ! Your Score was <b> ${level}</b> <br> Click Start to play again`;
         document.querySelector("body").style.backgroundColor = "red";
         setTimeout(function () {
             document.querySelector("body").style.backgroundColor = "black";

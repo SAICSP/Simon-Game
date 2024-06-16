@@ -93,3 +93,7 @@ function resetGame() {
     gameSeq = [];
     started = false;
 }
+
+let htplay=document.getElementById("htplay").addEventListener("click",function(){
+    window.location.href = 'https://github.com/SAICSP/Simon-Game/blob/main/README.md';
+})

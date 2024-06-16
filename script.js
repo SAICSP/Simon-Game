@@ -17,23 +17,16 @@ document.getElementById("startButton").addEventListener("click", function () {
     }
 });
 
-// document.addEventListener("keypress", function () {
-//     if (!started) {
-//         started = true;
-//         console.log("The game is started now");
-//         levelUp();
-//     }
-// });
 
 document.getElementById("restartButton").addEventListener("click", function () {
-    location.reload(); // Reload the page to restart the game
+    location.reload(); 
 });
 
 function gameFlash(btn) {
     btn.classList.add("flash");
     setTimeout(function () {
         btn.classList.remove("flash");
-    }, 250);
+    }, 550);
 }
 
 function userFlash(btn) {

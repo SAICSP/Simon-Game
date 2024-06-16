@@ -55,8 +55,8 @@ button:hover {
 
 .btn:hover {
     border: 6px solid white;
-    box-shadow: 10px 10px 10px white;
-    transition: ease-in-out 0.3s;
+    /* box-shadow: 10px 10px 10px white; */
+    /* transition: ease-in-out 0.3s; */
 }
 
 .red {
